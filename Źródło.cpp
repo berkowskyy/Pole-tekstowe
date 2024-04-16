@@ -13,7 +13,7 @@ int main() {
     e.setBackgroundColor(Edit::Color::Green);
     std::string s = e.getText();
     std::cout << "Pole tekstowe nr. 1" << std::endl;
-    std::cout << "Zawartoœæ pola tekstowego: " << s;
+    std::cout << "Zawartosc pola tekstowego: " << s;
     _getch();
     e.print();
     e.userText();
@@ -28,13 +28,13 @@ int main() {
     e2.setLength(30);
     e2.setBackgroundColor(Edit::Color::White);
     s = e2.getText();
-    std::cout << "Zawartoœæ pola tekstowego: " << s;
+    std::cout << "Zawartosc pola tekstowego: " << s;
     _getch();
     e2.print();
     e2.userText();
     system("cls");
     s = e2.getText();
-    std::cout << "Zawartoœæ pola tekstowego: " << s;
+    std::cout << "Zawartosc pola tekstowego: " << s;
     _getch();
 
     return 0;
